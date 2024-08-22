@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="heading">
+                <p>Mountain Travel</p>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li>Tours</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <!-- <i class="fa fa-bars"></i> -->
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </a>
+        </nav>
+    </header>
+    <section class="main-page">
+        <p class="main-title">Mountain Travel</p>
+        <p class="sub-title">Unmissable Adventure Tours Around the World </p>
+        <button type="submit">CONTACT US NOW</button>
+    </section>
+    <section class="destinations-list">
+        <p class="destination-title">Some Of Our Destinations:</p>
+        <p>Tired of the ocean? Are the plains too plain? Come along with us on one for our mountain adventures. </p>
+        <p>Here are some pictures from people who have had elevated experiences with us.</p>
+        <hr>
+        <div class="pics-array">
+            <img class="small-image" src="./assets/mountain1.jpg" alt="Mountain" >
+            <img class="large-image" src="./assets/mountain2.jpg" alt="Mountain" >
+            <img class="large-image" src="./assets/mountain3.jpg" alt="Mountain" >
+            <img class="small-image" src="./assets/mountain4.jpg" alt="Mountain" >
+        </div>
+    </section>
+    <section class="tour-packages">
+        <p class="trips-title">Tour Packages</p>
+        <p>We offer a variety of mountaineering packages. whether you've climbed Mount Everest or don't even know</p>
+        <p>what a moutain is, we've got the perfect vacation for you</p>
+        <hr>
+        <div class="trips-list">
+            <figure>
+                <img src="./assets/navigation-svgrepo-com.svg" alt="Navigation Icon">
+                <figcaption>Guided Trips</figcaption>
+                <p>Looking for the complete experience? Take a tour with one of our experts. They'll show you secrest that you're likely to miss otherwise.</p>
+            </figure>
+            <figure>
+                <img src="./assets/camera-svgrepo-com.svg" alt="Navigation Icon">
+                <figcaption>Photo Trips</figcaption>
+                <p>Want to experience nature's beauty without all of that annoying exercise? Take a tour on one of our mountain buses. </p>
+            </figure>
+            <figure>
+                <img src="./assets/bike-svgrepo-com.svg" alt="Navigation Icon">
+                <figcaption>Biking Trips</figcaption>
+                <p>If bicycles are more your speed, taking a tour through one of our mountain bike paths. We'll provide the bikes and lunch too!</p>
+            </figure>
+            <figure>
+                <img src="./assets/flag-svgrepo-com.svg" alt="Navigation Icon">
+                <figcaption>Racing Trips</figcaption>
+                <p>Got a competitive spirit? Sign up for one of our mountain marathons! Try to reach the summit before anyone else.</p>
+            </figure>
+        </div>
+    </section>
+    <section class="testmonials">
+        <p class="testmonials-title">Testimonials From Our Adventures:</p>
+        <hr>
+        <blockquote>
+            <p>Wow! This tour made me realise how much I love mountains. After going on one of these tours, I can safely say that they are my favorite geographic feature, and my favorite word that starts with M.</p>
+            <footer>- Colt Steele</footer>
+        </blockquote>
+        <blockquote>
+            <p>I never understood why people cared so much about mountains. But then I went on one of these tours. Now I can't understand people who don't care about mountains!</p>
+            <footer>- Ellie Schoppik</footer>
+        </blockquote>
+        <blockquote>
+            <p>If you want to understand the universe, head to the mountains. I mean, seriously. It's like, woah. You know? It's like that.</p>
+            <footer>- Tim Garcia</footer>
+        </blockquote>
+    </section>
+    <section class="contact-us">
+        <p class="contact-title">Learn More</p>
+        <p class="sub-text">Want to know about our upcoming mountain-related events, or come to one of our mixers? Just sign up for our mailing list. No spam from us, we promise! Except for the spam we give you to keep up your energy while you're hiking through the mountains. We have tons of that.</p>
+        <hr>
+        <form action="">
+            <input type="email" placeholder="Email">
+            <button>SUBSCRIBE NOW</button>
+        </form>
+    </section>
+    <footer class="ending">
+        <p class="text">IMAGES COURTESY OF UNSPLASH</p>
+        <p class="text">WHY ARE YOU EVEN READING THIS?! THERE'S NEVER ANYTHING INTERESTING IN THE FOOTER!</p>
+        <ul class="social-links">
+            <li><img src="./assets/twitter-svgrepo-com.svg" alt="Twitter Logo"></li>
+            <li><img src="./assets/facebook-svgrepo-com.svg" alt="Facebook Logo"></li>
+            <li><img src="./assets/snapchat-svgrepo-com.svg" alt="Snapchat Logo"></li>
+        </ul>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("nav-items");
+            if (x[0].style.display === "block") {
+                x[0].style.display = "none";
+            } else {
+                x[0].style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
